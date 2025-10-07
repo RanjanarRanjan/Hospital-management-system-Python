@@ -148,7 +148,7 @@ def my_appointments(request):
 @permission_classes([IsAuthenticated])
 def all_appointments(request):
     user = request.user
-    if user.user_role != "admin":
+    if request.user.user_role  != "admin":
         return Response({"error": "Only admin can view all appointments"}, status=403)
 
     # Order by date and slot
