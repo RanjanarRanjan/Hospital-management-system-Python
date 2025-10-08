@@ -21,7 +21,8 @@ function App() {
         <Route path="/user-dashboard" element={<UserDashboard/>}/>
         <Route path="/add-doctor" element={<AddDoctor />} />
         <Route path="/admin/view-doctors" element={<ViewDoctors />} />
-        <Route path="/edit-doctor/:id" element={<AddDoctor />} />
+        {/* <Route path="/edit-doctor/:id" element={<AddDoctor />} /> */}
+         <Route path="/admin/update-doctor/:id" element={<AddDoctor />} />
         <Route path="/admin/view-appointments" element={<ViewAppointments/>}/>
 
         <Route path="/user/book-appointment" element={<BookAppointment/>}/>
