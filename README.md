@@ -67,6 +67,22 @@ The main goal of this project is to create a **digital platform for hospital app
 
 ---
 
+🔄 Project Flow
+
+User visits the homepage and logs in or signs up.
+First signup becomes Admin automatically.
+Admin adds doctor details (name, specialization, available slots, etc.).
+Users can view doctors, pick a slot, and book appointments.
+Admin can view all appointments; users can view/cancel their own.
+
+📸 Screens & Design
+
+🏠 Home Page — Welcome screen with login/signup options.
+👩‍⚕️ Admin Dashboard — Manage doctors and appointments.
+📅 User Dashboard — View doctors and book appointments.
+
+---
+
 ## ⚡ How to Run the Project  
 
 ### 🗂️ 1. Clone the Repository  
@@ -96,18 +112,3 @@ npm install
 
 Start the Vite development server:
 npm run dev
-
-
-🔄 Project Flow
-
-User visits the homepage and logs in or signs up.
-First signup becomes Admin automatically.
-Admin adds doctor details (name, specialization, available slots, etc.).
-Users can view doctors, pick a slot, and book appointments.
-Admin can view all appointments; users can view/cancel their own.
-
-📸 Screens & Design
-
-🏠 Home Page — Welcome screen with login/signup options.
-👩‍⚕️ Admin Dashboard — Manage doctors and appointments.
-📅 User Dashboard — View doctors and book appointments.
